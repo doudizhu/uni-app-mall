@@ -9,7 +9,11 @@
 		{
 			"path": "pages/tabBar/home/index",
 			"style": {
-				"navigationBarTitleText": "首页"
+				"navigationBarTitleText": "首页",
+				"app-plus":{ // 取消默认的状态栏
+					"titleNView":false,
+					"bounce":"none"
+				}
 			}
 		},
 		{

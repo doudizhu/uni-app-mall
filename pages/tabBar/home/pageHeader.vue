@@ -36,7 +36,7 @@
 		position: fixed;
 		z-index: 10;
 		background-color: #fff;
-		// top: 0;
+		top: 0;
 		// 条件编译 设置离顶部的高度
 		/*  #ifdef  APP-PLUS  */
 		top: var(--status-bar-height);
