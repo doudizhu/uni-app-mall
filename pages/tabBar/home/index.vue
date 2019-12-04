@@ -22,9 +22,18 @@
 		},
 		methods:{
 			initData(){
-				uni.request({
+				// uni.request({
+				//     url: interfaces.getMallData,
+				//     success: (res) => {
+				//         this.swiperList = res.data.swiperList
+				// 		this.categoryList = res.data.categoryList
+				// 		this.promotion = res.data.promotion
+				//     }
+				// });
+				this.request({
 				    url: interfaces.getMallData,
 				    success: (res) => {
+						console.log(res)
 				        this.swiperList = res.data.swiperList
 						this.categoryList = res.data.categoryList
 						this.promotion = res.data.promotion
