@@ -19,7 +19,11 @@
 		{
 			"path": "pages/tabBar/category/index",
 			"style": {
-				"navigationBarTitleText": "分类"
+				"navigationBarTitleText": "分类",
+				"app-plus":{ // 取消默认的状态栏
+					"titleNView":false,
+					"bounce":"none"
+				}
 			}
 		},
 		{
